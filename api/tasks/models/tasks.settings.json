@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "Tasks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "do": {
+      "type": "boolean"
+    }
+  }
+}
